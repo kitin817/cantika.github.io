@@ -1,10 +1,90 @@
-<html>
-<title>personal branding</title>
+<!DOCTYPE html>
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Branding - Cantika</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .about, .portfolio, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .portfolio img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-  <h1>
-      assalamualaikum kenalin cewenya yoongi
-  </h1>
+    <header>
+        <h1>Cantika</h1>
+        <p> "Ahli dalam [Bidang Anda]"</p>
+    </header>
+    
+    <div class="container">
+        <section class="about">
+            <h2>Tentang Saya</h2>
+            <p>Deskripsikan diri Anda di sini. Ceritakan pengalaman, keterampilan, dan visi Anda untuk membangun personal branding yang kuat.</p>
+        </section>
+        
+        <section class="portfolio">
+            <h2>Portofolio</h2>
+            <p>Tampilkan karya Anda di sini.</p>
+            <img src="https://via.placeholder.com/300" alt="Proyek 1">
+            <img src="https://via.placeholder.com/300" alt="Proyek 2">
+            <!-- Tambahkan lebih banyak gambar atau tautan -->
+        </section>
+        
+        <section class="contact">
+            <h2>Kontak</h2>
+            <p>Email: cantika010609@email.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/namaanda">linkedin.com/in/namaanda</a></p>
+            <!-- Tambahkan form kontak jika diperlukan -->
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 Cantika Semua hak dilindungi.</p>
+    </footer>
+    
+    <script>
+        // JavaScript sederhana untuk interaktivitas, misalnya animasi scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.backgroundColor = '#0056b3';
+            } else {
+                header.style.backgroundColor = '#007bff';
+            }
+        });
+    </script>
 </body>
 </html>
